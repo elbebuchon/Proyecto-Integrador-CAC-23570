@@ -5,22 +5,12 @@
   }
   
   header {
-      background-color: rgb(80, 65, 65);
-      width: 100%;
-      /*position: fixed;  por si lo queremos siempre visible arriba de la hoja*/
-      z-index: 100;  
-      padding: 30px;  
+    background-color: rgb(80, 65, 65);
+    width: 100%;
+    /*position: fixed;  por si lo queremos siempre visible arriba de la hoja*/
+    z-index: 100;  
+    padding: 30px;  
   }
-  
-  .funkologo {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-left: 10px;
-  }
-  
-  nav {
-      float: right;
-    }
   
   nav ul {
       list-style: none;
@@ -47,10 +37,25 @@
       pointer-events: all;
   }
   
+  /* Para ver como centramos los rectangulos de los articulos */
   
-  bg-grey {
-      background-color: rgb(80, 65, 65);
+  .bg-grey {
+    
+      background-color: rgb(124, 116, 116);
       
+  }
+
+  .bg-white {
+
+    background-color: #ffffff;
+
+  }
+
+  /**************************************************/
+
+  .just-content {
+    justify-content: space-around;
+
   }
   
   .cont-banner {
