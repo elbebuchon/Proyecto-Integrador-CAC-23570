@@ -24,15 +24,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!----------------------------->  
     
-    <header class="row mb-2 just-content">
+    <header class=" container-fluid row just-content">
 
-        <picture class="col-4">
+        <picture class="col-4 p-0 m-0">
             <a href="#">
                 <img class="funkologo" src="multimedia/branding/logo_light_horizontal.svg" />
             </a>
         </picture>
         
-        <nav class="col-4">
+        <nav class="col-4 p-0 m-0">
             <ul>
                 <li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">SHOP</a>
@@ -56,68 +56,73 @@
         
     </header>
 
-    <section id="myCarousel" class="carousel slide mb-6 p-0" data-bs-ride="carousel">
+    <section>
         <div class="carousel-inner">
                 <div class="container-fluid cont-banner">
                     <img class="banner" src="multimedia/funkos-banner.webp" />
                     <div class="carousel-caption text-start">
                         <h1>Nuevos ingresos</h1>
                         <p>Descubri el próximo Funko Pop de tu colección.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">SHOP</a></p>
+                        <p><a class="btn-bd-primary rounded-5 px-5 py-1 btn-blanco" href="#"><b>SHOP</b></a></p>
                     </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-grey">
-        <div class="row mb-2 just-content">
+    <section class="container-fluid">
+        <div class="row just-content d-flex align-items-center">
 
-            <div class="col-md-4 bg-white">
-                <h1>STAR WARS & THE MANDALORIAN</h1>
-                <p>Disfruta de una saga que sigue agregando personajes a su colección.</p>
-                <button>VER COLECCIÓN</button>
+            <div class="col-6">
+                <h1>STAR WARS & <br>
+                THE MANDALORIAN</h1>
+                <p>Disfruta de una saga que sigue<br>
+                agregando personajes a su colección.</p>
+                <hr class="bottom-line">
+                <button class="btn-bd-primary btn-gris rounded-5 px-3">VER COLECCIÓN</button>
             </div>
             
-            <div class="col-md-5 bg-white">
-                <img src="multimedia/star-wars/baby-yoda-1.webp" />
+            <div class="col-5">
+                <img src="multimedia/star-wars/baby-yoda-1.webp" width="500" height="auto" />
             </div>
             
         </div>
         
-        <div class="row mb-2 just-content">
+        <div class="row just-content d-flex align-items-center">
 
-            <div class="col-md-5 bg-white">
-                <img src="multimedia/pokemon/vulpix-1.webp" />
+            <div class="col-5">
+                <img src="multimedia/pokemon/vulpix-1.webp" width="500" height="auto" />
             </div>
             
-            <div class="col-md-4 bg-white">
+            <div class="col-6">
                 <h1>POKEMON INDIGO</h1>
-                <p>Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
-                <button>VER COLECCIÓN</button>
+                <p>Atrapa todos los que puedas y disfruta <br>de una colección llena de amigos.</p>
+                <hr class="bottom-line">
+                <button class="btn-bd-primary btn-gris rounded-5 px-3">VER COLECCIÓN</button>
             </div>
     
         </div>
         
-        <div class="row mb-2 just-content">
+        <div class="row just-content d-flex align-items-center">
 
-            <div class="col-md-4 bg-white">
+            <div class="col-6">
                 <h1>HARRY POTTER</h1>
-                <p>Revive los recuerdos de una saga llena de magia y encanto.</p>
-                <button>VER COLECCIÓN</button>
+                <p>Revive los recuerdos de una saga <br> llena de magia y encanto.</p>
+                <hr class="bottom-line">
+                <button class="btn-bd-primary btn-gris rounded-5 px-3">VER COLECCIÓN</button>
             </div>
     
-            <div class="col-md-5 bg-white">
-                <img src="multimedia/harry-potter/snape-patronus-1.webp" />
+            <div class="col-5">
+                <img src="multimedia/harry-potter/snape-patronus-1.webp" width="500" height="auto" />
             </div>
             
         </div>
         
     </section>
 
-
-    <section class="row mb-3 gap-1 justify-content-center">
-        <div class="col-12 text-center">
-            <h1>ULTIMOS LANZAMIENTOS</h1>
+    <section class="container-fluid row justify-content-center">
+       
+        <div class="col-10">
+            <h1><b>ÚLTIMOS LANZAMIENTOS</b></h1>
         </div>
         <div class="col-3">
             <img style="width: 250px;" src="multimedia/star-wars/trooper-1.webp" />
@@ -127,18 +132,20 @@
         </div>
         <div class="col-3">
             <img style="width: 250px;" src="multimedia/harry-potter/luna-1.webp" />
-    </div>
+        </div>
         
-        </section>
+    </section>
 
-    <footer>
-        <ul>
-            <li><a>SHOP</a></li>
-            <li><a>CONTACTO</a></li>
-            <li><a>LOGIN</a></li>
+
+    <footer class="row just-content ">
+        
+        <ul class="col-1">
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">CONTACTO</a></li>
+            <li><a href="#">LOGIN</a></li>
         </ul>
-        <picture>
-            <img src="./multimedia/branding/isotype.svg" />
+        <picture class="col-2">
+            <a href="#"><img src="./multimedia/branding/isotype.svg" /></a>
         </picture>
     </footer>
 
