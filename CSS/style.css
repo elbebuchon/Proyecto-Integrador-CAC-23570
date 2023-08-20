@@ -87,7 +87,10 @@
       width: 100%;
       color: white;
       background-color:  rgb(80, 65, 65);
-      padding: 20px;
+      padding-top: 100px;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 20px;
   }
   
   footer ul {
