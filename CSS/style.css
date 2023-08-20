@@ -4,6 +4,10 @@
     font-family: 'Raleway', sans-serif;
   }
   
+  body {
+    overflow-x: hidden;
+  }
+
   header {
     background-color: rgb(80, 65, 65);
     width: 100%;
@@ -83,6 +87,7 @@
       width: 100%;
       color: white;
       background-color:  rgb(80, 65, 65);
+      padding: 20px;
   }
   
   footer ul {
