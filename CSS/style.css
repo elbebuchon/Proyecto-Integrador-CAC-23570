@@ -6,6 +6,7 @@
   
   body {
     overflow-x: hidden;
+    background-color: #ffffff;
   }
 
   header {
@@ -59,21 +60,22 @@
 
   }
   
-  .cont-banner {
-      background-color: black;
-      height: 388px;
-      padding: 0%;
-      margin: 0%;
-  }
-  
-  .banner {
-    margin: auto;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%;
-      height: auto;
-      opacity: 0.5;
-  }
+  .oscuro {
+    background-color: black;
+    height: 388px;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.banner {
+  background-image: url("../multimedia/funkos-banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 388px;
+}
+
   
   .carrito {
       width: 20px;
@@ -134,8 +136,9 @@
   
 hr {
     height: 5px;
-    background-color: brown;
-    border-color: brown;
+    background-color: rgb(247, 93, 4);
+    color:#e64311;
+    border-color: rgb(247, 93, 4);
   }
   
   .bottom-line {
@@ -143,4 +146,60 @@ hr {
   }
   
   
+.text-saga {
+  font-size: 15px; 
+  color:black;
+} 
+
+.text-modelo {
+  font-size: 20px; 
+  color:black;
+}
+
+.text-precio {
+  font-size: 15px; 
+  color:black;
+}
+
+.text-cuotas {
+  font-size: 15px;
+}
+
+.sin-decoracion {
+  text-decoration: none;
+}
+
+.text-saga-grande {
+  font-size: 50px;
+} 
+
+.text-btn-grande {
+  font-size: 20px;
+}
+
+.text-blanco {
+  color: white;
+}
+
+.btn-blanco-grande {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: white;
+  color:#000000;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text-banner {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.marg-banner {
+  margin-left: 10%;
+}
+
+
 

@@ -57,14 +57,13 @@
     </header>
 
     <section>
-        <div class="carousel-inner">
-                <div class="container-fluid cont-banner">
-                    <img class="banner" src="multimedia/funkos-banner.webp" />
-                    <div class="carousel-caption text-start">
-                        <h1>Nuevos ingresos</h1>
-                        <p>Descubri el próximo Funko Pop de tu colección.</p>
-                        <p><a class="btn-bd-primary rounded-5 px-5 py-1 btn-blanco" href="#"><b>SHOP</b></a></p>
-                    </div>
+        <div class="oscuro">
+            <div class="container-fluid banner">
+                <div>
+                    <h1 class="text-blanco text-banner"><b>Nuevos Ingresos</b></h1>
+                    <p class="text-btn-grande text-blanco marg-banner">Descubri el próximo Funko Pop de tu colección.</p>
+                    <p><a class="btn-bd-primary rounded-5 btn-blanco-grande marg-banner" href="#"><b>SHOP</b></a></p>
+                </div>
             </div>
         </div>
     </section>
@@ -73,16 +72,16 @@
         <div class="row just-content">
             <div class="row col-11 just-content d-flex align-items-center">            
                 <div class="col-6">
-                    <h1>STAR WARS & <br>
-                    THE MANDALORIAN</h1>
-                    <p>Disfruta de una saga que sigue<br>
+                    <h1 class="text-saga-grande"><b>STAR WARS & <br>
+                        THE MANDALORIAN</b></h1>
+                    <p class="text-btn-grande">Disfruta de una saga que sigue<br>
                     agregando personajes a su colección.</p>
                     <hr class="bottom-line">
-                    <button class="btn-bd-primary btn-gris rounded-5 px-3">VER COLECCIÓN</button>
+                    <button class="btn-bd-primary btn-gris rounded-5 px-5 py-3 text-btn-grande">VER COLECCIÓN</button>
                 </div>
             
                 <div class="col-5">
-                    <img src="multimedia/star-wars/baby-yoda-1.webp" width="500" height="auto" />
+                    <img src="multimedia/star-wars/baby-yoda-1.webp" width="600" height="auto" />
                 </div>
             </div>
         </div>
@@ -90,14 +89,14 @@
         <div class="row just-content">
             <div class="row col-11 just-content d-flex align-items-center">
                 <div class="col-5">
-                    <img src="multimedia/pokemon/vulpix-1.webp" width="500" height="auto" />
+                    <img src="multimedia/pokemon/vulpix-1.webp" width="600" height="auto" />
                 </div>
             
                 <div class="col-6">
-                    <h1>POKEMON INDIGO</h1>
-                    <p>Atrapa todos los que puedas y disfruta <br>de una colección llena de amigos.</p>
+                    <h1 class="text-saga-grande"><b>POKEMON INDIGO</b></h1>
+                    <p class="text-btn-grande">Atrapa todos los que puedas y disfruta <br>de una colección llena de amigos.</p>
                     <hr class="bottom-line">
-                    <button class="btn-bd-primary btn-gris rounded-5 px-3">VER COLECCIÓN</button>
+                    <button class="btn-bd-primary btn-gris rounded-5 px-5 py-3 text-btn-grande">VER COLECCIÓN</button>
                 </div>
             </div>
         </div>
@@ -105,14 +104,14 @@
         <div class="row just-content">
             <div class="row col-11 just-content d-flex align-items-center">
                 <div class="col-6">
-                    <h1>HARRY POTTER</h1>
-                    <p>Revive los recuerdos de una saga <br> llena de magia y encanto.</p>
+                    <h1 class="text-saga-grande"><b>HARRY POTTER</b></h1>
+                    <p class="text-btn-grande">Revive los recuerdos de una saga <br> llena de magia y encanto.</p>
                     <hr class="bottom-line">
-                    <button class="btn-bd-primary btn-gris rounded-5 px-3">VER COLECCIÓN</button>
+                    <button class="btn-bd-primary btn-gris rounded-5 px-5 py-3 text-btn-grande">VER COLECCIÓN</button>
                 </div>
     
                 <div class="col-5">
-                    <img src="multimedia/harry-potter/snape-patronus-1.webp" width="500" height="auto" />
+                    <img src="multimedia/harry-potter/snape-patronus-1.webp" width="600" height="auto" />
                 </div>
             </div>
         </div>
@@ -120,18 +119,62 @@
     </section>
 
     <section>
-        <div class="container-fluid row justify-content-center">
-            <div class="col-10">
-                <h1><b>ÚLTIMOS LANZAMIENTOS</b></h1>
-            </div>
-            <div class="col-3">
-                <img style="width: 250px;" src="multimedia/star-wars/trooper-1.webp" />
-            </div>
-            <div class="col-3">
-                <img style="width: 250px;" src="multimedia/pokemon/pidgeotto-1.webp" />
-            </div>
-            <div class="col-3">
-                <img style="width: 250px;" src="multimedia/harry-potter/luna-1.webp" />
+        <div class="album py-5">
+            <div class="container">
+                <div class="col-10">
+                    <h1><b>ÚLTIMOS LANZAMIENTOS</b></h1>
+                </div>
+                    
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <a href="#" class="sin-decoracion">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <div class="text-end">
+                                    <span class="btn-rojo px-5 py-1">Nuevo</span>
+                                </div>
+                                <img class="bd-placeholder-img card-img-top" src="multimedia/star-wars/trooper-1.webp" />
+                                <div class="card-body">
+                                    <p class="text-saga">STAR WARS</p>
+                                    <p class="text-modelo"><strong>STOMTROOPER LIGHTSABER</strong></p>
+                                    <p class="text-precio">$1799.99</p>
+                                    <p class="text-cuotas"><b>3 cuotas sin interés</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="sin-decoracion">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <div class="text-end">
+                                    <span class="btn-rojo px-5 py-1">Nuevo</span>
+                                </div>
+                                <img class="bd-placeholder-img card-img-top" src="multimedia/pokemon/pidgeotto-1.webp" />
+                                <div class="card-body">
+                                    <p class="text-saga">POKEMON</p>
+                                    <p class="text-modelo"><strong>PIDGEOTTO</strong></p>
+                                    <p class="text-precio">$1799.99</p>
+                                    <p class="text-cuotas"><b>3 cuotas sin interés</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="sin-decoracion"> 
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <div class="text-end">
+                                    <span class="btn-rojo px-5 py-1">Nuevo</span>
+                                </div>
+                                <img class="bd-placeholder-img card-img-top" src="multimedia/harry-potter/luna-1.webp" />
+                                <div class="card-body">
+                                    <p class="text-saga">HARRY POTTER</p>
+                                    <p class="text-modelo"><strong>LUNA LOVEGOOD LION MASK</strong></p>
+                                    <p class="text-precio">$1799.99</p>
+                                    <p class="text-cuotas"><b>3 cuotas sin interés</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
